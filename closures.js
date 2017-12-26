@@ -35,3 +35,19 @@ function functionA() {
 }
 
 functionA();
+
+
+// Another Example
+
+var v = 1;
+
+var f1 = function () {
+  console.log(v);
+}
+
+var f2 = function() {
+  var v = 2;
+  f1(); // This will print '1' because 'f1' closure does not have access to 'f2' closure not matter where 'f1' is executed
+};
+
+f2();

@@ -1,7 +1,6 @@
 // This is 'Global' scope
 
 
-
 function localScope() {
 	// This is 'Function' or 'Local' scope
 
@@ -11,17 +10,14 @@ function localScope() {
 }
 
 
-
 {
 	// This is 'Block' scope
 }
 
 
-
 if (a == '2') {
 	// This is 'Block' scope
 }
-
 
 
 for (var i = 0; i < 10; i++) {

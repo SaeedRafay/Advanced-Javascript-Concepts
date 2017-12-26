@@ -1,7 +1,7 @@
 // Example # 1
 // .map() is a higher order function
 // e => e*e is the lower order function
-	const myArray = [1, 2, 3].map(e => e*e);
+const myArray = [1, 2, 3].map(e => e*e);
 console.log(myArray);
 
 
